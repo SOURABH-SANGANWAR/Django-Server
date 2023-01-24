@@ -128,6 +128,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'mysite.wsgi.application'
+CSRF_TRUSTED_ORIGINS = ['https://mydepbackend.up.railway.app/']
 
 
 # Database
